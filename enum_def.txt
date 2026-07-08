@@ -1,0 +1,45 @@
+Enum {
+ protected Enum(String name, int ordinal) {
+    this.name = name;
+    this.ordinal = ordinal;
+ }
+}
+
+final class Continue extends java.lang.Enum {
+
+
+    // Neenga ezhuthuna constants ellaam 'static final' objects-aa maaridum
+
+   // Object variables create aagum pothu compiler indha values-ai pass pannum:
+
+public static final Continue Failed = new Continue("Failed", 0);
+
+public static final Continue Continue = new Continue("Continue", 1);
+
+public static final Continue Particular = new Continue("Particular", 2);
+
+
+    // Itho irukku paarunga Class Name-la oru Constructor!
+
+    private Continue(String name, int ordinal) { 
+
+        super(name, ordinal); 
+
+    }
+
+}
+
+
+class Main {
+
+    public static void main(String[] args) {
+
+        Continue s1 = Continue.Failed;
+
+        s1 = Continue.Continue;
+
+         s1 = Continue.Particular;
+
+    }
+
+} 
