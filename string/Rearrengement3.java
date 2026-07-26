@@ -3,9 +3,34 @@ package string;
 
 import java.util.Arrays;
 import java.util.Scanner;
-public class Rearrengement3 {
+ class Rearrengement3 {
 
 
+
+
+
+	  public static void main(String[] args) {
+
+	        Scanner sc = new Scanner(System.in);
+
+	        System.out.print("Enter first word: ");
+	        String first = sc.nextLine();
+
+	        System.out.print("Enter second word: ");
+	        String second = sc.nextLine();
+
+	        // 👇 NORMAL METHOD CALL
+	        boolean result = areRearrangements(first, second);
+
+	        // 👇 NORMAL IF CHECK
+	        if (result == true) {
+	            System.out.println("TRUE - It is an anagram");
+	        } else {
+	            System.out.println("FALSE - It is not an anagram");
+	        }
+
+	        sc.close();
+	    }
 
 
 	    public static boolean areRearrangements(String str1, String str2) {
@@ -31,26 +56,5 @@ public class Rearrengement3 {
 	        return Arrays.equals(arr1, arr2);
 	    }
 
-	    public static void main(String[] args) {
-
-	        Scanner sc = new Scanner(System.in);
-
-	        System.out.print("Enter first word: ");
-	        String first = sc.nextLine();
-
-	        System.out.print("Enter second word: ");
-	        String second = sc.nextLine();
-
-	        // 👇 NORMAL METHOD CALL
-	        boolean result = areRearrangements(first, second);
-
-	        // 👇 NORMAL IF CHECK
-	        if (result == true) {
-	            System.out.println("TRUE - It is an anagram");
-	        } else {
-	            System.out.println("FALSE - It is not an anagram");
-	        }
-
-	        sc.close();
-	    }
+	  
 	}

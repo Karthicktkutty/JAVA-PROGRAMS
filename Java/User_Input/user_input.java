@@ -1,18 +1,5 @@
 import java.util.Scanner;
-class Student {
-    int RollNo;
-    float Mark;
-    int Age;
-    void run() {
-        System.out.println("I Am Running");
-    }
-    void walk() {
-        System.out.println("I Am Running");
-    }
-    void sleep() {
-        System.out.println("I Am Running");
-    }
-}
+
 
 class Main {
     public static void main(String[] args) {
@@ -28,5 +15,20 @@ class Main {
         sc.walk();
         sc.sleep();
         s.close();
+    }
+}
+
+class Student {
+    int RollNo;
+    float Mark;
+    int Age;
+    void run() {
+        System.out.println("I Am Running");
+    }
+    void walk() {
+        System.out.println("I Am Running");
+    }
+    void sleep() {
+        System.out.println("I Am Running");
     }
 }

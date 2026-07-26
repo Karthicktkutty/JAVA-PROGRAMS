@@ -16,6 +16,6 @@ class hello{
        //  int d = a*b*c;
        //  int e = a+b+c;
         // System.out.println(d/e);
-        int
+       // int
     }
 }

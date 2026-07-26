@@ -1,3 +1,13 @@
+
+class Main { public static void main(String[] args) { 
+    System.out.println("Try programiz.pro"); 
+    Person p = new Person(); 
+    int x = p.getAge(20); 
+    System.out.println(x);
+    p.setAge(40); 
+} 
+}
+
 class Person { 
     private int age; 
     public void setAge(int a) { 
@@ -13,11 +23,3 @@ class Person {
         return a; 
     } 
 } 
-class Main { public static void main(String[] args) { 
-    System.out.println("Try programiz.pro"); 
-    Person p = new Person(); 
-    int x = p.getAge(20); 
-    System.out.println(x);
-    p.setAge(40); 
-} 
-}

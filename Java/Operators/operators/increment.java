@@ -1,4 +1,4 @@
-public class LikeSystem {
+ class LikeSystem {
     public static void main(String[] args) {
         int likes = 0;
 

@@ -1,4 +1,4 @@
-public class LoginCheck {
+ class LoginCheck {
     public static void main(String[] args) {
         String username = "Karthick";
         String password = "JavaRocks";

@@ -1,3 +1,10 @@
+class Main {
+    public static void main(String[] args) {
+        Calc c = new Calc();   // object create
+        c.show();
+    }
+}
+
 interface Add {
     int operation(int a, int b);
 }
@@ -16,9 +23,3 @@ class Calc {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        Calc c = new Calc();   // object create
-        c.show();
-    }
-}

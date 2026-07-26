@@ -1,4 +1,4 @@
-public class Car {
+class Car {
    static void convertkilometer() {
       System.out.println("converting km into Miles");
     }

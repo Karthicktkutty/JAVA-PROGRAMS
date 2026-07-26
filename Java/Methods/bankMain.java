@@ -1,5 +1,5 @@
 
-class Main {
+ class Main {
     public static void main(String[] args) {
         bankAccount s1 = new bankAccount();
         System.out.println("Current Balance $ " + s1.getbalance());

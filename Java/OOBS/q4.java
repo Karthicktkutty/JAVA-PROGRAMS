@@ -1,5 +1,4 @@
-
-class Main {
+ class Main {
 public static void main(String[] args)
 {
    Student s1 = new Student();
@@ -7,7 +6,7 @@ public static void main(String[] args)
    s1.rollno = 26;
    s1.marks = 77;
 
-   system.out.println(s1.name);
+   System.out.println(s1.name);
    System.out.println(s1.rollno);
    System.out.println(s1.marks);
 

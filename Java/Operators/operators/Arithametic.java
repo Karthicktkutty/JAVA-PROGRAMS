@@ -1,4 +1,4 @@
-public class EMICalculator {
+class EMICalculator {
     public static void main(String[] args) {
         double principal = 500000; // loan amount
         double rate = 7.5 / 100;   // annual interest

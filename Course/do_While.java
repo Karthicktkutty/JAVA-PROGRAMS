@@ -1,4 +1,4 @@
-public class Demo {
+ class Main {
     public static void main(String a[]) {
         int i = 1;
 

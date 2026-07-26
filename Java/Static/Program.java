@@ -1,3 +1,5 @@
+
+
 public class Program {
     static int a; 
     static int b;
@@ -23,6 +25,7 @@ public class Program {
         System.out.println(p);
         System.out.println(q);
 }
+
 public static void main(String[] args) {
     Program.display1();
    Program p1 = new Program();

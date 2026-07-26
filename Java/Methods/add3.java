@@ -1,4 +1,4 @@
-public class Main {
+class Main {
     public static void main(String[] args) 
     {
        int res = add(5, 10); // Pass two integers

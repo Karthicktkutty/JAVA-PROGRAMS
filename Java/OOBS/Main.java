@@ -1,20 +1,4 @@
-class Student {
-    String name;
-    int rollno;
-    int marks;
 
-    void run() {
-        System.out.println("running");
-    }
-
-    void study() {
-        System.out.println("studying");
-    }
-
-    void sleep() {
-        System.out.println("sleeping");
-    }
-}
 
 public class Main {
 public static void main(String[] args) {
@@ -33,6 +17,24 @@ public static void main(String[] args) {
     s1.sleep();
 }
 
+}
+
+class Student {
+    String name;
+    int rollno;
+    int marks;
+
+    void run() {
+        System.out.println("running");
+    }
+
+    void study() {
+        System.out.println("studying");
+    }
+
+    void sleep() {
+        System.out.println("sleeping");
+    }
 }
 
     

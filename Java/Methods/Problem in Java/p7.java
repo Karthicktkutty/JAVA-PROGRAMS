@@ -1,15 +1,4 @@
-interface SmartDevice {
-   String turnon();
-    String turnoff();
-}
-class Smartlight implements SmartDevice {
-    public String turnon() {
-        return "turn on light";
-    }
-    public String turnoff() {
-        return "turn off light";
-    }
-}
+
 class Main {
     public static void main(String[] args) {
      //   System.out.println("Try programiz.pro");
@@ -27,4 +16,17 @@ class Main {
         return sd.turnoff();
     }
 }
+}
+
+interface SmartDevice {
+   String turnon();
+    String turnoff();
+}
+class Smartlight implements SmartDevice {
+    public String turnon() {
+        return "turn on light";
+    }
+    public String turnoff() {
+        return "turn off light";
+    }
 }

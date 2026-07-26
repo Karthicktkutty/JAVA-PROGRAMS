@@ -1,4 +1,4 @@
-public class Main {
+ class Main {
     public static void main(String[] args) {
         Course course1 = new Course("Introduction to Java");
         Course course2 = new Course("Advanced Java", "JAVA102");

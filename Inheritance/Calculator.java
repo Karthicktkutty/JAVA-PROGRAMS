@@ -1,4 +1,5 @@
-package Inheritance;
+
+
 import tools.db.superCal;
  class Calculator {
     public static void main(String[] args) {

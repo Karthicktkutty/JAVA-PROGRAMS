@@ -1,4 +1,4 @@
-public class LicenseCheck {
+ class LicenseCheck {
     public static void main(String[] args) {
         int age = 17;
 

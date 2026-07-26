@@ -1,4 +1,4 @@
-public class AppConfig {
+class AppConfig {
     public static void main(String[] args) {
         String theme = "Dark";
         int timeout = 30;

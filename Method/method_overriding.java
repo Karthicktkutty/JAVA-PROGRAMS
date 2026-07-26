@@ -1,3 +1,6 @@
+
+
+package Method;
 class Main {
     public static void main(String[] args) {
     Adv obj = new Adv();
